@@ -2,9 +2,9 @@ name: Python application
 
 on:
   push:
-   branches: [ master ]
+   branches: [ new_branch ]
   pull_request:
-    branches: [ master ]
+    branches: [ new_branch ]
       
 jobs:
   build:
